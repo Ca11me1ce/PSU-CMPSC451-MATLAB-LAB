@@ -3,7 +3,7 @@ b=pi/2;
 N=10;
 k=-0.3;
 j=-0.1;
-[e,U1]=two_point(a,b,k,j,'m',N);
+[e,U1]=bvp(a,b,k,j,'m',N);
 
 plot(e,U1);
 hold
