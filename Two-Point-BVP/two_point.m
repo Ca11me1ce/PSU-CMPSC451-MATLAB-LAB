@@ -1,4 +1,4 @@
-function [e, U1]=two_point(a,b,k,j,m,N)
+function [e, U1]=bvp(a,b,k,j,m,N)
 h=(b-a)/N
 w1=h*h;
 T=sparse(N-1,N-1);
